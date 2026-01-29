@@ -6,6 +6,7 @@ Hierarchy detection based on column "S"/"STT"/"TT":
 - Level 2: I, II, III... (Heading 2) optional
 - Level 3: 1, 2, 3... (Use-case)
 - Rows without STT but with transaction -> appended to last Use-case
+python excel_to_docx.py "C:\Users\Admin\Documents\ids\input.xlsx" "C:\Users\Admin\Documents\ids\Dac_Ta_Use_Case_Phan_He_Nghiep_Vu_v1.docx"
 """
 
 import os
